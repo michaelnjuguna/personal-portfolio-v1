@@ -1,0 +1,400 @@
+@-webkit-keyframes swingHorizontal {
+  15% {
+    -webkit-transform: translateX(5px);
+            transform: translateX(5px);
+  }
+  30% {
+    -webkit-transform: translateX(-5px);
+            transform: translateX(-5px);
+  }
+  50% {
+    -webkit-transform: translateX(3px);
+            transform: translateX(3px);
+  }
+  65% {
+    -webkit-transform: translateX(-3px);
+            transform: translateX(-3px);
+  }
+  80% {
+    -webkit-transform: translateX(2px);
+            transform: translateX(2px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes swingHorizontal {
+  15% {
+    -webkit-transform: translateX(5px);
+            transform: translateX(5px);
+  }
+  30% {
+    -webkit-transform: translateX(-5px);
+            transform: translateX(-5px);
+  }
+  50% {
+    -webkit-transform: translateX(3px);
+            transform: translateX(3px);
+  }
+  65% {
+    -webkit-transform: translateX(-3px);
+            transform: translateX(-3px);
+  }
+  80% {
+    -webkit-transform: translateX(2px);
+            transform: translateX(2px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+*,
+*::after,
+*:hover {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #e1f5fe;
+}
+
+body {
+  font-size: inherit;
+  background-color: #e1f5fe;
+}
+
+.header-img__btn {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.header-img {
+  position: relative;
+}
+
+.header-img__icons {
+  position: absolute;
+  top: 15%;
+  right: 20%;
+}
+
+.header-img__icons a {
+  color: white;
+  padding: .5rem;
+  display: block;
+}
+
+.card {
+  width: 25rem;
+  margin: 1rem auto;
+  color: white;
+}
+
+.card h5 {
+  font-family: "Vidaloka", serif;
+  text-transform: uppercase;
+  padding: .5rem 0;
+}
+
+.card-1 {
+  background-color: #3961fb !important;
+}
+
+.card-2 {
+  background-color: #5663fb !important;
+}
+
+.card-3 {
+  background-color: #8e91fb !important;
+}
+
+.card-4 {
+  background-color: #223cf9 !important;
+}
+
+.card-5 {
+  background-color: #606efb !important;
+}
+
+.card-6 {
+  background-color: #0632fe !important;
+}
+
+.about-me .experience-group {
+  font-family: "Vidaloka", serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.about-me .experience-group .group-main {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.about-description {
+  padding: 5% 15%;
+}
+
+.about-description h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.about-description p {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  padding-left: 6rem;
+}
+
+.about-description a {
+  padding-left: 6rem;
+}
+
+.contact-me {
+  -webkit-clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+          clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+  color: white;
+  font-family: "Vidaloka", serif;
+  background-color: #29b6f6;
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.contact-me .contact-info {
+  padding-top: 5rem;
+}
+
+.contact-me .contact-info h3 {
+  font-family: "Playball", cursive;
+  font-size: 2rem;
+  letter-spacing: .5rem;
+}
+
+.contact-me .contact-form {
+  padding-bottom: 5rem;
+}
+
+.contact-me .contact-form input {
+  margin: 1rem auto;
+  display: block;
+}
+
+.footer-main {
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.footer-main .footer-info h4 {
+  font-family: "Vidaloka", serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: .5rem;
+}
+
+.footer-main .footer-info a {
+  text-decoration: none;
+  color: #29b6f6;
+  padding: .5rem;
+}
+
+.footer-main .footer-logo {
+  font-weight: bold;
+  font-family: "Playball", cursive;
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+.footer-main .footer-links a {
+  text-decoration: underline;
+  color: black;
+  padding: 0 .2;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: "4rem" "auto" "10rem";
+      grid-template-rows: "4rem" "auto" "10rem";
+      grid-template-areas: "navbar" "body" "footer";
+}
+
+.navigation-bar {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: navbar;
+}
+
+.main {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: body;
+}
+
+.footer {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: footer;
+}
+
+.header {
+  background-color: #29b6f6;
+  -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 90%, 0 100%, 0% 100%);
+          clip-path: polygon(0% 0%, 100% 0, 100% 90%, 0 100%, 0% 100%);
+}
+
+.header .header-info {
+  color: white;
+  padding: 5% 15%;
+  font-family: "Vidaloka", serif;
+  line-height: 1.5;
+}
+
+.header .header-info .greetings {
+  font-family: "Playball", cursive;
+  letter-spacing: .5rem;
+  font-weight: bolder;
+}
+
+.header .header-info__main {
+  color: #ffff00;
+  font-weight: bolder;
+  letter-spacing: .5rem;
+  text-decoration: underline;
+  font-family: "Playball", cursive;
+}
+
+.header .header-info__btn a .btn {
+  margin: 1rem .5rem;
+}
+
+.header .header-img {
+  padding: 5% 15%;
+}
+
+.navigation-bar {
+  background-color: #29b6f6;
+}
+
+.navigation-bar .navbar {
+  margin: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navigation-bar .navbar .logo {
+  font-family: "Playball", cursive;
+  font-weight: bolder;
+  line-height: .1;
+  text-align: center;
+}
+
+.navigation-bar .navbar .logo .navbar-brand {
+  color: white;
+  letter-spacing: .2rem;
+  font-size: 1.6rem;
+}
+
+.navigation-bar .navbar .hambuger {
+  background-color: white;
+}
+
+.navigation-bar .navbar .nav-items .nav-item .nav-link {
+  color: white;
+  font-family: "Vidaloka", serif;
+  font-size: 1.3rem;
+}
+
+.navigation-bar .navbar .nav-items .nav-item .nav-link:hover {
+  -webkit-animation: swingHorizontal 1s ease;
+          animation: swingHorizontal 1s ease;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+.pricing {
+  padding: 5% 15%;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pricing h1 {
+  color: black;
+  font-family: "Vidaloka", serif;
+  padding-bottom: .5rem;
+}
+
+.pricing label {
+  font-size: 1.6rem;
+}
+
+.pricing button {
+  margin: 1rem;
+}
+
+.my-work {
+  text-align: center;
+  padding: 5% 15%;
+  -webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+          clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+  background-color: #29b6f6;
+}
+
+.my-work .work {
+  padding: 5rem 0;
+  color: white;
+}
+
+.my-work h1 {
+  font-family: "Vidaloka", serif;
+  font-weight: bold;
+  letter-spacing: .5rem;
+}
+
+.skills {
+  padding: 5% 15%;
+  -webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+          clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+  background-color: #29b6f6;
+  color: white;
+  font-family: white;
+}
+
+.skills .skills-main {
+  padding: 5rem 0;
+}
+
+.skills .skills-main h1 {
+  font-family: "Vidaloka", serif;
+  font-size: 2.5rem;
+  letter-spacing: .3rem;
+}
+
+.skills .skills-main .skills-items {
+  padding: .5rem;
+}
+
+.skills .skills-main .skills-items h6 {
+  font-size: 1.6rem;
+}
+
+.cards {
+  padding: 5% 15%;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=main.css.map */

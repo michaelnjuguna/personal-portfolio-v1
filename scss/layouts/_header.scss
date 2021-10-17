@@ -1,0 +1,38 @@
+.header {
+    background-color: $maincolor;
+    clip-path: polygon(0% 0%, 100% 0, 100% 90%, 0 100%, 0% 100%);
+
+    .header-info {
+        color: $secondarycolor;
+        padding: $defaultpadding;
+        font-family: $primaryfont;
+        line-height: 1.5;
+
+
+        .greetings {
+            font-family: $specialfont;
+            letter-spacing: .5rem;
+            font-weight: bolder;
+
+        }
+
+        &__main {
+            color: $specialcolor;
+            font-weight: bolder;
+            letter-spacing: .5rem;
+            text-decoration: underline;
+            font-family: $specialfont;
+        }
+
+        &__btn {
+            a {
+                .btn {
+                    margin: 1rem .5rem;
+                }
+            }
+        }
+    }
+    .header-img{
+        padding: $defaultpadding;
+    }
+}

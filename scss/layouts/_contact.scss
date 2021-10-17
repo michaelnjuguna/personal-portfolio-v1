@@ -1,0 +1,26 @@
+.contact-me{
+    clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+    color: $secondarycolor;
+    font-family: $primaryfont;
+    background-color: $maincolor;
+    padding: $defaultpadding;
+    text-align: center;
+
+    .contact-info{
+        padding-top: 5rem;
+        h3{
+            font-family: $specialfont;
+            font-size: 2rem;
+            letter-spacing: .5rem;
+        }
+    }
+
+    .contact-form{
+        padding-bottom: 5rem;
+        input{
+            margin: 1rem auto;
+            display: block;
+            
+        }
+    }
+}

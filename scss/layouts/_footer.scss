@@ -1,0 +1,32 @@
+.footer-main{
+    padding: $defaultpadding;
+    text-align: center;
+
+    .footer-info{
+        h4{
+            font-family: $primaryfont;
+            font-size: 1.6rem;
+            font-weight: bold;
+            letter-spacing: .5rem;
+        }
+        a{
+            text-decoration: none;
+            color: $maincolor;
+            padding: .5rem;
+        }
+    }
+    .footer-logo{
+        font-weight: bold;
+        font-family: $specialfont;
+        font-size: 2rem;
+        padding: 1rem 0;
+    }
+    .footer-links{
+        a{
+text-decoration:underline ;
+color: $primarycolor;
+padding: 0 .2;
+        }
+        
+    }
+}

@@ -1,0 +1,38 @@
+.card{
+    width: 25rem;
+    margin: 1rem auto;
+    color: $secondarycolor;
+    h5{
+        font-family: $primaryfont;
+        text-transform: uppercase;
+        padding: .5rem 0;
+    }
+
+    @media (min-width:577px) {
+    
+        }
+}
+
+.card-1{
+    background-color: #3961fb !important;
+}
+
+.card-2{
+    background-color: #5663fb !important;
+}
+
+.card-3{
+    background-color: #8e91fb !important;
+}
+
+.card-4{
+    background-color: #223cf9 !important;
+}
+
+.card-5{
+    background-color: #606efb !important;
+}
+
+.card-6{
+    background-color: #0632fe !important;
+}

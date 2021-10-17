@@ -1,0 +1,27 @@
+@import "scss/abstract/variables";
+
+
+@import "scss/base/animations";
+@import "scss/base/base";
+
+
+@import "scss/components/buttons";
+@import "scss/components/icons";
+@import "scss/components/cards";
+
+
+@import "scss/external/bootstrap";
+
+
+@import "scss/layouts/about-me";
+@import "scss/layouts/contact";
+@import "scss/layouts/footer";
+@import "scss/layouts/grid";
+@import "scss/layouts/header";
+@import "scss/layouts/navbar";
+@import "scss/layouts/pricing";
+@import "scss/layouts/work";
+@import "scss/layouts/skills.scss";
+@import "scss/layouts/cards-section";
+
+@import "scss/pages/landing-page";

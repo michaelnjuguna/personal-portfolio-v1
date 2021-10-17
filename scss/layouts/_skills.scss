@@ -1,0 +1,23 @@
+.skills{
+    padding: $defaultpadding;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    background-color: $maincolor;
+    color: $secondarycolor;
+    font-family: $secondarycolor;
+
+    .skills-main{
+        padding: 5rem 0;
+        h1{
+            font-family: $primaryfont;
+            font-size: 2.5rem;
+            letter-spacing: .3rem;
+        }
+        .skills-items{
+            padding: .5rem;
+            h6{
+                font-size: 1.6rem;
+            }
+        }
+        
+    }
+}

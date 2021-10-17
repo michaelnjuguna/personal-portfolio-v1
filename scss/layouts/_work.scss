@@ -1,0 +1,17 @@
+.my-work{
+    text-align: center;
+    padding: $defaultpadding;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    background-color: $maincolor;
+    .work{
+        padding: 5rem 0;
+        color: $secondarycolor;
+    }
+
+   
+    h1{
+        font-family: $primaryfont;
+        font-weight: bold;
+        letter-spacing: .5rem;
+    }
+}

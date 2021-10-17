@@ -1,0 +1,18 @@
+.pricing {
+    padding: $defaultpadding;
+    text-align: center;
+    align-items: center;
+
+    h1 {
+        color: $primarycolor;
+        font-family: $primaryfont;
+        padding-bottom: .5rem;
+    }
+
+    label {
+        font-size: 1.6rem;
+    }
+button{
+    margin: 1rem;
+}
+}

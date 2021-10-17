@@ -1,0 +1,21 @@
+body{
+    display: grid;
+    grid-template-rows: "4rem"
+                         "auto"
+                          "10rem";
+grid-template-areas: "navbar"
+                      "body"
+                        "footer";
+}
+
+.navigation-bar{
+    grid-area: navbar;
+}
+
+.main{
+    grid-area: body;
+}
+
+.footer{
+    grid-area: footer;
+}

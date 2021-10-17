@@ -1,0 +1,13 @@
+.header-img{
+    position: relative;
+    &__icons{
+        position: absolute;
+        top: 15%;
+        right:20%;
+        a{
+            color: $secondarycolor;
+            padding: .5rem;
+            display: block;
+        }
+    }
+}

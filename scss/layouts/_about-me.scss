@@ -1,0 +1,31 @@
+.about-me{
+    .experience{
+        &-group{
+            font-family: $primaryfont;
+            font-size: 1.4rem;
+            font-weight: bold;
+            .group-main{
+                font-size: 3rem;
+                font-weight: bold;
+            }
+            
+        }
+    }
+   
+}
+
+.about-description{
+    padding: $defaultpadding;
+    h2{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    p{
+        font-size: 1.6rem;
+        font-family: $secondaryfont;
+        padding-left:6rem ;
+    }
+    a{
+        padding-left: 6rem;
+    }
+}

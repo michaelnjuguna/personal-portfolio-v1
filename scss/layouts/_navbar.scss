@@ -1,0 +1,42 @@
+.navigation-bar {
+    background-color: $maincolor;
+
+    .navbar {
+        margin: 0;
+        align-items: center;
+
+        .logo {
+            font-family: $specialfont;
+            font-weight: bolder;
+            line-height: .1;
+            text-align: center;
+
+            .navbar-brand {
+                color: $secondarycolor;
+                letter-spacing: .2rem;
+                font-size: 1.6rem;
+            }
+        }
+
+        .hambuger {
+            background-color: $secondarycolor;
+        }
+
+        .nav-items {
+            .nav-item {
+                .nav-link {
+                    color: $secondarycolor;
+                    font-family: $primaryfont;
+                    font-size: 1.3rem;
+
+                    &:hover {
+                          animation: swingHorizontal 1s ease;
+                          animation-iteration-count: 1;
+                    }
+                    
+                }
+               
+            }
+        }
+    }
+}
